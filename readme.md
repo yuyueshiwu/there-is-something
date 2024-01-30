@@ -4,19 +4,21 @@
 
 ## :heart:注意事项
 
-
+- [x] 书写markdown文本时候可以用`/`作为转义字符来达到输出原本字符的作用
 
 - [x] MD文本语法一般用**英文标点**标注，中文标点为全角标点，无法被MD编辑器转义识别
 
 - [x] 图片格式文件直接粘贴或者插入即可
-
-  ---
-
   
+  ---
 
 ## :lollipop:基本语法
 
 ### 0.标题["#"+空格]
+
+**特殊用法**:
+
+- 在行尾添加两个或者以上`空格`+`回车`可以创建新段落
 
 ```
 # 一级标题
@@ -69,8 +71,6 @@ E.G.
 <center>yrsk的歌真好听</center>
 
 ---
-
-
 
 ### 2.文字划线
 
@@ -224,11 +224,27 @@ E.G.
 
 分别用"[]"和"()"包裹文本和链接
 
+**特别提醒**:
+
+- 超链接格式为[]+()
+- 插入图片可以用!+[]+()
+- 添加图片点击跳转可以用[!+[]+()]+()    ~~也就是超链接和图片插入的嵌套使用!!!~~
+
 E.G.
+
+**超链接:**
 
 [要看看我的探针吗](http://yuyue.onetechworld.online)
 
-[Click back 8](#8.标注)
+[Click back 8](#8.标注) 
+
+**网络图片:**
+
+![这是一张好看的图片](https://w.wallhaven.cc/full/gp/wallhaven-gpx7x3.jpg)
+
+**图片跳转:**
+
+[![初音未来!!!:cupid:](https://w.wallhaven.cc/full/we/wallhaven-wevq5q.jpg)](https://w.wallhaven.cc/full/we/wallhaven-wevq5q.jpg)
 
 ```链接语法
 [要看看我的探针吗](http://yuyue.onetechworld.online/)    # 跳转外链
@@ -269,6 +285,10 @@ E.G.
 
 ```表格语法格式
 |2023|Anime|:star:|
+|:---:|:---:|:---:|
+|April|《我心里危险的东西》|5|
+|July|《BanG Dream!It's MyGO!!!!!》|5|
+|October|《葬送的芙莉莲》|5|
 ......
 
 # 注意
@@ -302,11 +322,9 @@ E.G.    
 
 ~~**注意**:记住大量emoji_name需要有一定英语水平,这个功能可以让本子变好看~~
 
-E.G.    :sweat_smile:    :space_invader:    :star:	:desert:
+E.G.    :sweat_smile:    :space_invader:    :star:    :desert:
 
 ---
-
-
 
 ## :sparkles:进阶语法
 
